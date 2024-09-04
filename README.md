@@ -1,3 +1,3 @@
 # SANDBOX
-This is my first edit on my ssandbox ractice! 
-I think it works
+This is my first edit on my sandbox practice file! 
+I think it works!
