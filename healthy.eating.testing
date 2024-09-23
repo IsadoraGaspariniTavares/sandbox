@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Healthy Eating</title>
+    </head>
+    <body>
+        <h1>Healthy Eating</h1>
+        <p>Healthy eating means providing all the fundamental nutrients for the functioning of our body, such as carbohydrates, lipids, protein, mineral salts, and vitamins</p>
+        <p> The key to having a healthy diet is balance. We cannot exclude any of the nutrients from our diet, but we must be aware of the amount of everthing that we ingest. There is no way of compensating the lack of one nutrient by ingesting another one in larger quantities.</p>
+        <h2>Types and Function of Foods</h2>
+    <nav> <ul>
+        <li><a href="#fruitsandvegetables">Fruits and Vegetables</a></li>
+            <ul>
+            <li>Great source of vitamins, and minerals</li> 
+            </ul>
+        <li><a href="#grains">Grains</a></li>
+            <ul>
+            <li>bread, cereals, rices, amd asta re a good source of complex carbphydrates. or stretched, which provide enegery</li>
+            </ul>
+            <li>Protein
+            <ul>
+            <li>needed for building and reapiring the body: high-quality proteins inclde ,eat, fish, chhiken,and egg</li>
+            </ul>
+        <li>Dairy
+            <ul>
+            <li>sources of calcium and vitamin D; some examples are milk, yogurt, soy milk</li>
+            </ul>
+        <li>Fats and Sweets
+            <ul>
+            <li>High in calories, low in nutrients; they should be eatne sparingly</li>
+            </ul>
+    </nav>
+    <main>
+        <article id="fruitsandvegetables">
+            <h3>Fruits and Vegetables</h3>
+            <p>Fruits come from the flowering part of a plant and contain seeds, while vegetables are the edible parts of a plant, such as the leaves, roots, stems, or bulbs. They are a good source of vitamins, minerals, fiber, antioxidants, and plant compounds. They are also usually low in fat and sodium.A diet high in fruits and vegetables can help reduce the risk of serious health problems, such as heart disease, stroke, type 2 diabetes, obesity, and some cancers.The Department of Agriculture recommends that adults consume 1.5 to 2.5 cups of fruit and 2 to 4 cups of vegetables per day.</p>
+        </article>
+    <main>
+        <article id="grains">
+            <h3>Grains</h3>
+            <p>Grains are seeds or fruits from cereal grasses, also known as kernels. They are a key part of the human diet and have been cultivated for thousands of years.</p>
+            <p>Grains are a great source of nutrients, including: 
+                Fiber: Helps lower the risk of heart disease, stroke, and type 2 diabetes 
+                B vitamins: Help the body release energy from food and are important for a healthy nervous system 
+                Iron: Helps carry oxygen in the blood 
+                Magnesium: Helps build bones and release energy from muscles 
+                Selenium: Protects cells from oxidation and is important for a healthy immune system </p>
+
+        </article>
+    </main>
+
+    </main>
+        <h2>Benefits of Healthy Eating</h2>
+
+        <p>Healthy eating is essential for the functioning of our body, because it is from a balanced diet that we get the nutrients we need for our survival. A healthy diet is related to several benefits for our body, such as the improvement in immunity, mood and sleep quality, the increase in disposition, the regulation of our intestine, and the maintenance of weight.</p>
+        <p>In addition, we must not forget that an unbalanced diet can help develop problems such as obesity, hyertension, diabetes, cardiovascular diseases, and even certain types of cancer. Investing in proper nutrition is, therefore, investing in your health.</p>
+        <p>Surveys found that unhealthy diets were responsible for almost 11 million deaths in 2017, compared to 10.4 million deaths caused by high blood preassure and 8 million by cigarettes.</p>
+        <h2>Obesity</h2>
+        <p>The World Health Organization defines overweight and obesity as having excessive fat accumuation that presnts a risk to health.</p>
+        <p>The WHO estimates that in 2019, 5 million deaths from noncommunicable diseases were caused by anhigh BMI, andrates of obesity continue to rise everyday worldwide.</p>
+        <p>chech the comparison between bseity rates from 1990 and 2002</p>
+        
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>1990 Data</th>
+                <th>2022 Data</th>
+            </tr>
+            <tr>
+                <td>Obesity Rate - Girls</td>
+                <td>1.7%</td>
+                <td>6.9%</td>
+            </tr>
+            <tr>
+                <td>Obesity rates - Boys</td>
+                <td>2.1%</td>
+                <td>9.3%</td>
+            </tr>
+            <tr>
+                <td>Children & Teenagers Affected</td>
+                <td>31 million</td>
+                <td>159 million</td>
+            </tr>
+            <tr>
+                <td>Obesity Rate - Women</td>
+                <td>8.8%</td>
+                <td>18.8%</td>
+            </tr>
+            <tr>
+                <td>Obesity Rate - Men</td>
+                <td>4.8%</td>
+                <td>14.0</td>
+            </tr>
+            <tr>
+                <td>Adults Affected by Obesity</td>
+                <td>195 million</td>
+                <td>879 million</td>
+            </tr>
+                
+
+        </table>
+        <h2>Healthy Recipies Ideas</h2>
+        <p>Having a healthy diet doesn't mean eating tasteless food. Actually, there are many healthy and tasty recipes that are worth trying!</p>
+        <p>There are many websites created by chefs and nutritionists that provide endless healthy recipes for all kinds of occasions and tastes, and Kelly Gerllner is one of them! A foodie and fitness enthusiast who has made this topic her speciality; sharing easy, quick and simple recipes made with ingredients that most people are likely to have at home.</p>
+        <p>Check out some examples</p>
+        <h3>Breakfast</h3>
+        <ul>
+            <li><a href="https://www.eatyourselfskinny.com/healthy-apple-cinnamon-pancakes/">Healthy Apple Cinammon Pancakes</a></li>
+            <li><a href="https://www.eatyourselfskinny.com/banana-oatmeal-breakfast-cookies/">Banana Oatmeal Breakfast Cookies</a></li>
+            <li><a href="https://www.eatyourselfskinny.com/triple-berry-smoothie-bowl/">Triple Berry Smoothie Bowl</a></li>
+        </ul>
+        <h3>Lunch</h3>
+        <ul>
+            <li><a href="https://www.eatyourselfskinny.com/italian-pasta-salad/">Italian Pasta Salad</a></li>
+            <li><a href="https://www.eatyourselfskinny.com/tuna-avocado-egg-salad/">Tuna Avocado Egg Salad</a></li>
+            <li><a href="https://www.eatyourselfskinny.com/tuna-rigatoni-with-sun-dried-tomatoes/">Tuna Rigatoni Sun Dried Tomatoes</a></li>
+        </ul>
+        <h3>Dinner</h3>
+        <ul>
+            <li><a href="https://www.eatyourselfskinny.com/lemon-chicken-with-thyme/">Lemon Herb Grilled Chicken</a></li>
+            <li><a href="https://www.eatyourselfskinny.com/cilantro-lime-chicken-tacos/">Cilantro Lime Chicken Tacos</a></li>
+            <li><a href="https://www.eatyourselfskinny.com/sheet-pan-maple-dijon-glazed-salmon/">Sheet Pan Maple Dijon Glazed Salmon</a></li>
+        </ul>
