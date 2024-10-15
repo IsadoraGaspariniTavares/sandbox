@@ -1,0 +1,72 @@
+/* This is a comment! */
+
+
+
+body{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+background-color: yellow;
+}
+
+h2,
+h3 {
+    color: blue;
+}
+
+p,
+li {
+    line-height: 1.5;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+abbr [title] {
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+}
+
+{
+    font-style: italic;
+}
+
+footer: a {
+    color: #000
+}
+
+#introduction {
+    background-color: aqua;
+    border: 1px dasehd blue:
+}
+
+#introduction a {
+    color:blue;
+}
+
+#return-to-top{
+    background-color: yellow;
+}
+
+#geography aside{
+    border: 1px dashed rgb(red, green, blue)
+    padding-left
+}
+
+/*class Selectors */
+
+first{
+    font-weight: bold;
+}
+first: ::first-letter {
+    font-size: 22px;
+}
+
+highlight {
+    font-weight: bold;
+    color: blue;
+}
+
