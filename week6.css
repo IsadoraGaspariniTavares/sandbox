@@ -1,0 +1,79 @@
+@@ -1,72 +1,32 @@
+/* This is a comment! */
+
+body{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-family: helvetica;
+}
+
+a:hover {
+background-color: yellow;
+h1{
+    color: maroon;
+}
+
+h2,
+h3 {
+    color: blue;
+h2 {
+    color: purple
+}
+
+p,
+li {
+    line-height: 1.5;
+h3{
+    color: lightseagreen;
+}
+
+ul > li {
+    list-style-type: square;
+}
+abbr [title] {
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+}
+
+{
+    font-style: italic;
+}
+footer: a {
+    color: #000
+}
+#introduction {
+    background-color: aqua;
+    border: 1px dasehd blue:
+}
+#introduction a {
+    color:blue;
+}
+#return-to-top{
+    background-color: yellow;
+}
+#geography aside{
+    border: 1px dashed rgb(red, green, blue)
+    padding-left
+}
+/*class Selectors */
+first{
+    font-weight: bold;
+}
+first: ::first-letter {
+    font-size: 22px;
+p,
+li{
+    line-height: 1.5;
+}
+
+highlight {
+    font-weight: bold;
+    color: blue;
+footer{
+    background-color: aquamarine;
+}
+
+nav{
+    font-style: italic;
+}
