@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,300;1,300&display=swap');
+
+
+#box {
+  background-color: yellow;
+  font-family: "Playwrite", "Georgia", "Times New Roman";
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  
+  margin-top: 20px auto;
+  margin-right: 20px auto;
+  margin-bottom: 20px auto;
+  margin-left: 20px auto; 
+
+  border:4px solid red;
+  border-style: dotted;
+
+  max-width: 500px;
+  height: 500px;
+
+  overflow: auto;
+
+  /* add your properties here */
+}
+
+p{
+  margin: 2px;
+}
