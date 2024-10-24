@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Patrick+Hand+SC&display=swap');
+
+body{
+    color:black;
+    font-family: "Gowun Dodum", "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-size:16px;
+}
+
+#box {
+    background-color: moccasin;
+    border: 5px solid orange;
+    width: 350px;
+    height: 150px;
+    margin: 5px;
+    border-style: dashed;
+    overflow: auto;
+
+}
+
+h1{
+    color:orange;
+    font-family: "Patrick Hand SC", cursive;
+    margin: 5px;
+    
+}
+
+h2{
+    color:red;
+    font-family: "Patrick Hand SC", cursive;
+}
