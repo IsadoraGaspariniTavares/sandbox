@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Playfair+Display&family=Rye&display=swap');
+
+h1{
+    font-family: "Rye";
+    font-size: 90px    ;
+}
+
+h2{
+    font-family: "Rye";
+}
+
+body{
+    background-color: burlywood;
+    
+}
+
+h3{
+    font-size: 25px;
+}
+
+table,
+th,
+td{
+    table-layout: auto;
+    border: 4px solid brown
+    
+}
+
+p{
+    font-family: "Playfair Display";
+}
+
+#box{
+    border: 5px solid yellow;
+    width: 750px;
+    height: 200x;
+    margin: 5px;
+    border-style: double;
+    overflow: auto;
+    
+}
+
