@@ -1,0 +1,31 @@
+/* 01-two-columns.css */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  background-color: #ddd;
+}
+
+/* **************************************** */
+/* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
+/* WRITE YOUR STYLES BELOW! 👇👇👇           */
+/* **************************************** */
+
+.grid{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-gap: 20px;
+}
+
+a{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+b{
+  grid-column-start: 2;
+  grid-column-end: -2;
+}
