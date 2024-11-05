@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Simonetta&family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 h1{
     font-family: "Waterfall";
@@ -26,45 +27,111 @@ body{
     font-size: 16px;
     font-weight: 400;
     background-color: #fff4e5;
+    text-align: justify;
 }
 
-table,
+h2{
+    margin-top:0;
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+header,
+footer{
+    padding-left: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
+
+section{
+    padding:20px;
+    background-color: #f7e8c1;
+}
+
+footer{
+    grid-area: footer;
+    margin-top: 32px;
+}
+
+#introduction{
+    grid-column: 1 / -1
+}
+
+#geography{
+    grid-column: 1;
+    grid-row:2;
+}
+
+#peopleandsociety{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+table
+{
+    border-top: 3px solid #ffb208;
+    border-left: 3px solid #ffb208;
+    border-collapse: collapse;
+    margin-bottom: 32px;
+}
+
 td,
 th{
-    table-layout: auto;
-    border: 4px solid #ffb208;
+    border-bottom: 3px solid #ffb208;
+    border-right: 3px solid #ffb208;
+    padding: 6px 6px;
+
 }
 
 ul > li{
     list-style-type: "🍕";
+    line-height: 0.3in;
     
 }
 
-
-figure{
-    padding-top: 0;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    margin: 0px, 1px;
+#map{
+    margin-bottom: 0px;
 }
 
-box{
-    border: 5px solid #4f6112;
-    width: 750px;
-    height: 200x;
-    margin: 5px;
-    border-style: double;
-    overflow: auto;
-}
-
-//*
-figure{
+#duomo{
     border: 1px solid #555;
   margin: 0;
   padding: 20px 20px 30px 20px;
   width: 350px;
+  background-color:white;
+  margin-bottom:32px;
+
+
 }
-  *//
 
+#polaroid{
+    font-family: "Shadows Into Light","Courier New";
+    text-align: right;
+    font-size: 25px;
 
+}
+
+    
+
+#box{
+    border: 3px solid #4f6112;
+    width: 5x;
+    height:200px;
+    margin:5px;
+    border-style: double;
+    overflow: auto;
+}
+
+figcaption{
+    margin-bottom: 30px;
+}
