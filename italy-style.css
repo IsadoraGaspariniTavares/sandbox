@@ -28,6 +28,7 @@ body{
     font-weight: 400;
     background-color: #fff4e5;
     text-align: justify;
+    line-height: 1.5;
 }
 
 h2{
@@ -94,7 +95,7 @@ th{
 }
 
 ul > li{
-    list-style-type: "🍕";
+    list-style-type: "🍕 ";
     line-height: 0.3in;
     
 }
@@ -106,7 +107,7 @@ ul > li{
 #duomo{
     border: 1px solid #555;
   margin: 0;
-  padding: 20px 20px 30px 20px;
+  padding: 20px 20px 25px 20px;
   width: 350px;
   background-color:white;
   margin-bottom:32px;
@@ -129,17 +130,58 @@ ul > li{
     margin: 0;
 }
 
+#naples{
+    border: 1px solid #555;
+  margin: 0;
+  padding: 20px 20px 25px 20px;
+  width: 350px;
+  background-color:white;
+  margin-bottom:32px;
+
+}
+
+#lake{
+    font-family: "Shadows Into Light","Courier New";
+    text-align:right;
+    font-size: 25px;
+}
     
 
 #box{
     border: 3px solid #4f6112;
-    width: 5x;
-    height:200px;
-    margin:5px;
+    width: 320px;
+    height:180px;
+    
+    margin-left: 22px;
+    margin-bottom: 32px;
     border-style: double;
     overflow: auto;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 figcaption{
-    margin-bottom: 30px;
+    margin-bottom:30px;
 }
+
+
+a,
+a:link{
+    color:#4f6112
+
+}
+
+a:visited{
+    color:#ffb208
+}
+
+a:hover{
+    color:#4f6112
+
+}
+
+a:active{
+    color:#ba1108
+
+}
+
