@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+h1{
+    font-family: "Waterfall", "Helvetica", "sans serif";
+    font-size: 120px;
+    color: #ba1108;
+    margin: 5px;
+    padding: 1px;
+}
+
+
+h2{
+    font-family: "Simonetta","Helvetica","sans serif";
+    font-size: 32px;
+    color: rgb(77, 117, 53);;
+   
+}
+
+h3{
+    color: rgb(255, 165, 0);
+}
+
+body{
+    font-family: "Helvetica", "Arial", "sans-serif";
+    color:black;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff4e5;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 960px;
+    margin: 5px auto;
+}
+
+h2{
+    margin-top:0;
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+header,
+footer{
+    padding-left: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 15px;
+}
+
+section{
+    padding:20px;
+    background-color: #f7e8c1;
+}
+
+footer{
+    grid-area: footer;
+    margin-top: 32px;
+}
+
+#introduction{
+    grid-column: 1 / -1
+}
+
+#geography{
+    display: grid;
+    grid-column: 1;
+    grid-row:2;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+}
+
+#geography .place{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+#peopleandsociety{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#peopleandsociety .peoplpe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2;
+}
+
+#header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+table
+{
+    border-top: 3px solid  rgb(255, 165, 0);
+    border-left: 3px solid rgb(255, 165, 0);
+    border-collapse: collapse;
+    margin-bottom: 32px;
+}
+
+td,
+th{
+    border-bottom: 3px solid rgb(255, 165, 0);
+    border-right: 3px solid rgb(255, 165, 0);
+
+}
+
+ul > li{
+    list-style-type: "🍕 ";
+    line-height: 0.3in;
+    
+}
+
+#map{
+    margin-bottom: 0px;
+}
+
+#duomo{
+    border: 1px solid rgb(77, 117, 53);
+  margin: 0;
+  padding: 20px 20px 25px 20px;
+  width: 350px;
+  background-color:white;
+  margin-bottom:32px;
+
+
+}
+
+#polaroid{
+    font-family: "Shadows Into Light","Courier New";
+    text-align: right;
+    font-size: 25px;
+
+}
+
+#map{
+    margin:0;
+}
+
+
+
+#lake{
+    font-family: "Shadows Into Light","Courier New";
+    text-align:right;
+    font-size: 25px;
+}
+    
+
+#box{
+    border: 3px solid rgb(77, 117, 53);
+    width: 805px;
+    height: 315px;
+    
+    margin-top: 20px;
+    margin-right:30px;
+    margin-bottom: 32px;
+    margin-left:0px;
+    border-style: double;
+    overflow: auto;
+    padding-left: 15px;
+    padding-top: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1 /1;
+}
+
+
+#box .flag{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+
+}
+
+#box .list{
+    grid-column: 1 / 1;
+    grid-row: 1;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+
+figcaption{
+    margin-bottom:30px;
+    font-size: 10px;;
+}
+
+
+a,
+a:link{
+    color: rgb(255, 165, 0);
+
+}
+
+a:visited{
+    color: rgb(77, 117, 53);
+}
+
+a:hover{
+    color:rgb(77, 117, 53);
+
+}
+
+a:active{
+    color:#ba1108
+
+}
+
+#peopleandsociety .first{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#peopleandsociety .second{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: -2 / -1;
+    grid-row: 1;
+
+}
