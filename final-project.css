@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&family=Gabriela&family=Tinos&display=swap');
+
+
+nav ul {
+margin: 0 0 0 8px;
+padding-left: 0;
+list-style: none;
+font-family: "Tinos" "Helvetica" "sans";
+}
+
+nav li {
+display: inline-block;
+margin-right: 30px;
+padding: 10px 0;
+font-size:20px;}
+
+#navigation{
+    background-color: black;
+    order: 5px solid white;
+    width: 100x;
+    height: 200x;
+    margin: 5px;
+    overflow: auto;
+}
+
+body{
+font-family: "Tino";
+}
+    
+
+h1{
+    font-family: "DM Serif Text";
+    font-size: 60px;
+    color: black;
+    box-align: center;
+}
+
+h2{
+    font-family: "Gabriela";
+    font-size: 30px;
+    
+}
+
+body{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+        "header     header"
+        "nav        main"
+        "footer     footer";
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: grid;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row: 2;
+    grid-gap: 25px;
+
+}
+
+#personal{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+
+#two{
+    grid-column-start: 2;
+    grid-row-start: 1 ;
+}
+a,
+a:link{
+    color: white;
+
+}
+
+a:visited{
+    color: #BFBFBD;
+}
+
+a:hover{
+    color: #8C8C8C;
+
+}
+
+a:active{
+    color: #E9E5DC;
+
+}
+
+
+
